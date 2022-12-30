@@ -1,0 +1,40 @@
+1:-(git init):- it is used to initialize the git in project
+
+2:-(git remote add origin {path of repositories}):- it is used to give the path where you want to perfrom operations
+
+3:-(git fetch): update the branch history on local
+
+4.(git branch):- show the all branches on our local
+
+5:-(git checkout):-
+
+6:-(git checkout main):-
+
+7:-(npx gitignore node):-
+
+8:-(git status):-
+
+9:-(git add app.js) || (git add .) || (git add file1.extension file2.extension ...[so on])
+
+10:-(git status):-
+
+11:-(git commit -m "{description}"])
+
+12:-(git config --global user.email "{our email}") || (git config user.email "{our email}");
+
+13:-(git config --global user.name "{our name}") || (git config user.name "{our name}");
+
+14:-(git config user.name):-
+
+15:-(git config user.email):-
+
+16:-(git commit -m "{description || name something}"):-
+
+17:-(git pull origin main):-
+
+18:-(git push origin main):-
+
+19:-():-
+
+
+

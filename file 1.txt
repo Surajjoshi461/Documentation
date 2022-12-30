@@ -1,0 +1,80 @@
+1:- (pwd)
+
+2:- (git config user.name)
+
+3:- (git config user.email)
+
+4:- (git init)
+
+5:- (git status)
+
+5.5 :- (git clone {path})               //if you want to clone a project from github site
+
+6:- (git add origin {path})
+
+7:- (git add {file_name.extension})
+
+8:- (git commit -m "any message")
+
+9:- (git log)
+
+10:- (ls)                               // to check how many item in directory
+
+11:- (clear) 
+
+12:- (git status)
+
+13:- (git diff)
+
+14:- (git diff --staged)
+
+15:- (git restore --staged {file name})
+
+16:- (git restore {file.name})
+
+17:- (git checkout -f)
+
+18:- (git mv {old file name} {new file name})
+
+19:- (git rm {file_name})            
+
+20:- (git rm --cached {file name})  
+ 
+21:- (git remote add origin {path});
+
+22:- (git push origin {branch name})
+
+23:- (git checkout -b {new branch name})
+
+24:- (git push origin {branch name}) 
+
+25:- (git branch)
+
+26:- (git checkout {master/main})
+
+27:- (git merge {sub branch})
+
+28:- (git remote -v)
+
+29:- (git push origin {master/main})
+
+30:- (git pull origin master)
+
+31:- (git pull origin master)
+
+32:- (git push origin {sub branch name})
+
+33:- (git config --global alias.s status) // for aliasing the name for git status
+
+34:- (git config --global alias.sc "commit -a -m") // aliasing the  add and commit command
+
+35:-  (git push origin --all -u -f)
+
+
+
+
+
+
+
+
+

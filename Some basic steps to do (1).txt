@@ -1,0 +1,76 @@
+//commands are writed in () brackets
+
+1. create the repository 
+
+2. copy the path from code with http(selection)
+
+3. goto our vs code then open terminal 
+
+4. create the gitignore file with (npx gitignore node) :- that will create a gitignore file where we write 
+	that name of files which we don't want to push on remote
+	
+5. then we will run this command (git remote add origin https://github.com/aniruddh2705/testing.git) to 
+	connect our project and repo
+
+6. to check updates of our code in local we use (git fetch) to update the project // changes on remote 
+	it will upto date your local 	
+
+7. to show the all branches on local (git branch)
+
+8. to switch one branch to another branch:- (git checkout -b {branch_name})  // -b :- create a new 		branch 
+
+9. to switch master branch to main branch we use (git checkout {branch_name}) //
+
+10. to check the status of our github repo and local how many files are affected (git status)
+
+ 		/*staging the changes*/
+11. here in this section we will add our files to the branch of github there are three ways to add
+	a. (git add {filename.ext}) // this will add only one file to branch
+	b. (git add {f1.ext f2.ext ..so on})// here we can add selected files to branch
+	c. (git add .) //that will add all files of project to git branch
+	
+12. to commit the changes on our github repo we use (git commit -m "{description}"])  //-m denoted 		message 
+	[but the changes still not updated on remote until we not push the code on remote]
+		then it will the commited files as output
+ 
+        //* first time setup :- start
+13. (git config --global user.email "{our email}") || (git config user.email "{our email}"); that will 
+	add our email as global or local
+	
+14. (git config --global user.name "{our name}") || (git config user.name "{our name}");    that will 
+	add our name as global or local		
+	 
+15. to check current user email and name (git config user.name) && (git config user.email)		 
+	first time setup  :- end **//
+16. to send or push our code to main branch repo we use (git push origin main) 
+
+17. to update our project with changes from remote we use (git pull origin main) //when main is branch
+
+18. you always do not push the code directly to the main/master branch. So for updating the code we use 	the concept of sub branch.so everytime when we develop we create a new branch from the source   	main branch. 
+
+19. to create new sub branch we use (git checkout -b "{feature/feature_name}");
+	it create the branch and switch to that branch
+
+20. to verify the current branch we use (git branch) 
+
+21. to check the current branch status (git status) // if we made some changes on that branch
+	it will be reflected by this command
+
+22. the process of merging the feature branch on main branch 
+	steps:- 
+	(i):- first we stage the changes (git add {file path});
+	(ii):- commit the changes on sub branch we use (git commit -m "{some messsage reabable}")
+	(iii):- after that push the code on current branch we use 
+		(git push origin "{current_branch_name}")	
+	(iv):- create pull request for merging the code of current branch in main branch 
+		(that will done by us on our github ac on browser ) 
+		we will add reviewer at the time of pull request creation 
+	(v):- reviewer will review the changes and merge the code in main branch	
+
+23. then always update the main branch in local system always checkout the main (git checkout main) 
+
+24. and pull the changes in local we use (git pull origin main )
+
+	
+   
+
